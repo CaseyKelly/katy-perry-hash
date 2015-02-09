@@ -8,3 +8,6 @@ sharks = {
     candidates: ["Bobby Wilson", "50cent", "Channing Tatum", "Ron Swanson", "McJagger"]
   }
 }
+KATY_PERRY.merge!(sharks)
+puts KATY_PERRY[:left_shark][:candidates].first
+puts KATY_PERRY[:left_shark][:candidates].last
